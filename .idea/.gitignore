@@ -2,9 +2,7 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/dataSources/
+/../../../../../../../../:\Users\green\Documents\WE Can Code IT\Code\AmbassadorAssistant\.idea/dataSources/
 /dataSources.local.xml
-# Zeppelin ignored files
-/ZeppelinRemoteNotebooks/
 # Editor-based HTTP Client requests
 /httpRequests/

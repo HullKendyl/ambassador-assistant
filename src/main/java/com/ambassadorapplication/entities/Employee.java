@@ -1,7 +1,15 @@
-package entities;
+package com.ambassadorapplication.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Employee {
 
+    @Id
+    @GeneratedValue
+    private Long id;
     private String firstName;
     private String lastName;
     private String phoneNumber;
@@ -16,12 +24,16 @@ public class Employee {
     private String sixMonthAnniversaryDate;
     private String oneYearAnniversaryDate;
 
+    public Employee(){}
+
     public Employee(String firstName, String lastName, String department, String positionTitle) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.department = department;
         this.positionTitle = positionTitle;
     }
+
+
 
     public String getFirstName() {
         return firstName;
