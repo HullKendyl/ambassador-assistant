@@ -1,4 +1,4 @@
-package Entities;
+package entities;
 
 public class Employee {
 
@@ -16,6 +16,6 @@ public class Employee {
     String sixMonthAnniversaryDate;
     String oneYearAnniversaryDate;
 
-    
+
 
 }
